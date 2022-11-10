@@ -1,0 +1,69 @@
+.App {
+  width:100vw;
+  height:100vh;
+  
+
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.Sidebar{
+  height:100%;
+  width:150px;
+  background-color:#2F4050;
+ 
+  
+
+}
+.Sidebarlist{ 
+  height:auto;
+ padding: 0;
+ width: 100%;
+
+}
+.Sidebarlist .row{ 
+  width: 90%;
+  height:80px;  
+  list-style-type: none;
+  margin: 0%;
+  display:flex;
+  flex-direction: row;
+  color: white;
+  justify-content:center;
+  align-items:center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Sidebarlist .row:hover{ 
+cursor:pointer;
+background-color: #293846;
+
+}
+.Sidebarlist  #active {
+background-color: #293846
+}
+.link:hover{
+  border-right: 4px solid black;
+}
+
+.row #icon {
+  flex:30%;
+  display:grid;
+  
+ 
+
+}
+.row #title{
+  flex :70%;
+  display:flex;
+ 
+
+
+
+  
+
+  
+   
+}
